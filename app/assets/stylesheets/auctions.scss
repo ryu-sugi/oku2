@@ -1,3 +1,57 @@
-// Place all the styles related to the auctions controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-left: 14px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 40px 0 20px 0;
+}
+
+.buttons {
+  margin: 30px 0;
+}
+
+.tab-content {
+  padding: 20px 0 10px 0;
+  p {
+    padding-left: 2em;
+  }
+}
+
+.auction {
+  border-bottom: 2px solid #e7e7e7;
+  margin-bottom: 20px;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  img {
+    margin-left: -5px;
+  }
+  :hover {
+    cursor: pointer;
+    background-color: #e7e7e7;
+  }
+}
+
+.auctioneer-evaluations {
+  margin-top: 10px;
+}
+
+.datetime-inputs {
+  label {
+    display: block;
+  }
+  input, select {
+    display: inline;
+    width: auto;
+  }
+}
